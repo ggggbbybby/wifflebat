@@ -1,4 +1,0 @@
-  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 8.0950ms
-  MOPED: 127.0.0.1:27017 QUERY        database=wifflebat_development collection=wifs selector={"$query"=>{}, "$orderby"=>{:_id=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 7.0260ms
-  MOPED: 127.0.0.1:27017 INSERT       database=wifflebat_development collection=wifs documents=[{"_id"=>BSON::ObjectId('55e0ac19e0e65502c5000000')}] flags=[]
-                         COMMAND      database=wifflebat_development command={:getlasterror=>1, :w=>1} runtime: 516.7820ms
