@@ -1,0 +1,12 @@
+<p>
+  Currently, there are <%= @count %> drafts in the database.
+</p>
+
+<div ng-controller="WIFsController">
+    <h3>WIF Titles</h3>
+    <ul>
+      <li ng-repeat="wif in wifs | orderBy: post.title">
+        {{wif.title}}
+      </li>
+    </ul>
+</div>
