@@ -16,7 +16,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # MongoDB
-gem 'mongoid', '~> 4'
+gem 'mongoid', '~> 5.0.0.beta'
 gem 'bson_ext'
 
 # Use ActiveModel has_secure_password
@@ -36,6 +36,6 @@ group :development, :test do
   gem 'web-console', '~> 2.0'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
+  #gem 'spring'
 end
 
